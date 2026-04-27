@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Environment variables
+.env
+
+# ChromaDB
+chroma/
+chromadb/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
