@@ -79,7 +79,7 @@ Final Response
 * **Backend:** Python
 * **Vector DB:** ChromaDB
 * **Embeddings:** OpenAI `text-embedding-3-small`
-* **LLM:** GPT-4o-mini (fallback: Claude Haiku)
+* **LLM:** ollama
 * **Workflow Engine:** LangGraph
 * **Reranking:** Cross-Encoder (MiniLM)
 
