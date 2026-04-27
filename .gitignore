@@ -1,23 +1,47 @@
+# ==============================
 # Python
+# ==============================
 __pycache__/
 *.pyc
 *.pyo
 
-# Virtual environment
+# Virtual environments
 .venv/
-env/
 venv/
+env/
 
 # Environment variables
 .env
 
-# ChromaDB
+# ==============================
+# ChromaDB / Vector DB
+# ==============================
 chroma/
-chromadb/
+*.bin
+*.sqlite3
 
-# Logs
+# ==============================
+# Node (for doc generator)
+# ==============================
+node_modules/
+package-lock.json
+
+# ==============================
+# Logs & temp
+# ==============================
 *.log
+*.tmp
+*.bak
 
-# OS
+# ==============================
+# OS / Editor
+# ==============================
 .DS_Store
 Thumbs.db
+.vscode/
+.idea/
+
+# ==============================
+# Word temp files
+# ==============================
+~$*.docx
